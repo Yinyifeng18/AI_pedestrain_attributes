@@ -1,0 +1,10 @@
+欢迎关注公众号 渡码
+
+1. 如果需要训练 PaddleCls 网络，需要下载 pa100k.tar 文件， 在 PaddleCls 目录的 datasets 中解压
+    按照文章步骤训练即可
+
+2. pedestrain_attributes.py 是程序入口执行 python pedestrain_attributes.py 即可启动项目
+3. track.py 包含行人跟踪和属性识别代码
+4. pedestrain_attr_dict.py 行人属性的中英文映射
+
+运行过程需要 YOLOv5 和 ByteTrack 源码，这部分在之前文章说了， 大家可以参考
